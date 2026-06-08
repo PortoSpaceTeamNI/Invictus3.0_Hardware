@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX31855KASA+T
+D MAXIM INTEGRATED PRODUCTS - MAX31855KASA+T - TEMPERATURE SENSOR, 2DEG C, NSOIC-8
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,163 @@
+(footprint "BMP280"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "BMP280"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2693858a-f9f6-4a81-af6e-2f34c2052e11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BMP280"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "826ed560-6a4e-44b9-b60a-29d377267679")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d62bf19f-d504-43ed-ad0a-dcaa5621bc0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7b634bf-ddb2-458d-a3cc-2e88bbc649cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e734fafe-f1b9-466f-8dfb-7a6f3f9b306e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -7.62 -5.08)
+		(end 7.4168 6.8072)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ad963a24-8ab6-482f-ad47-becb5671bc37")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "503d07e7-c40c-4454-ba3d-6d47b494705f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.334 4.572)
+		(size 2.88 2.88)
+		(drill 2.88)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "501a85a2-092a-4bf5-8824-0bdf9b8fa417")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 4.572)
+		(size 2.88 2.88)
+		(drill 2.88)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c543d036-e6e7-4d00-914e-25fe5b73a6ae")
+	)
+	(pad "1" thru_hole oval
+		(at 6.2484 -4.064)
+		(size 1.2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d9824356-b766-4c28-9f28-4e00b06cd244")
+	)
+	(pad "2" thru_hole oval
+		(at 3.7084 -4.064)
+		(size 1.2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "507e1276-871c-4d45-842d-a2205ad031db")
+	)
+	(pad "3" thru_hole oval
+		(at 1.1684 -4.064)
+		(size 1.2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0e41533f-4575-4895-b530-a938d95892a1")
+	)
+	(pad "4" thru_hole oval
+		(at -1.3716 -4.064)
+		(size 1.2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e27a38b-da90-4314-bef1-065b6b740d60")
+	)
+	(pad "5" thru_hole oval
+		(at -3.9116 -4.064)
+		(size 1.2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c554d7cb-80c4-4875-a29b-ca7fe0296bd0")
+	)
+	(pad "6" thru_hole oval
+		(at -6.4516 -4.064)
+		(size 1.2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72d16ddf-f703-4ca7-a893-36f0953adf16")
+	)
+	(model "C:/Users/jscan/Desktop/Trabalhos/PST/Porto_Space_Team-20231016T155848Z-001/Porto_Space_Team/ComponentFiles/bmp280_module.stp"
+		(offset
+			(xyz -3.5 3.9 27)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
