@@ -4,4 +4,8 @@
   (lib (name "IRLHS6242TRPBF")(type "KiCad")(uri "${KICAD_CUSTOM_DIR}/ICs/IRLHS6242TRPBF/IRLHS6242TRPBF.kicad_sym")(options "")(descr ""))
   (lib (name "MAX31855KASA+T")(type "KiCad")(uri "/home/rafael-cacoete/Desktop/PST/Invictus3.0_Hardware/Symbols Lib/MAX31855KASA+T/MAX31855KASA+T.kicad_sym")(options "")(descr ""))
   (lib (name "Pressure_Amp")(type "KiCad")(uri "/home/rafael-cacoete/Desktop/PST/Invictus3.0_Hardware/Symbols Lib/Pressure_Amp/Pressure_Amp.kicad_sym")(options "")(descr ""))
+  (lib (name "1723103102")(type "KiCad")(uri "${KICAD_CUSTOM_DIR}/Contacts&Switches/1723103102/1723103102.kicad_sym")(options "")(descr ""))
+  (lib (name "ThermoPCBConnector")(type "KiCad")(uri "${KICAD_CUSTOM_DIR}/Contacts&Switches/ThermoPCBConnector/ThermoPCBConnector.kicad_sym")(options "")(descr ""))
+  (lib (name "1723103103")(type "KiCad")(uri "${KICAD_CUSTOM_DIR}/Contacts&Switches/1723103103/1723103103.kicad_sym")(options "")(descr ""))
+  (lib (name "Mini Dc-Dc")(type "KiCad")(uri "${KICAD_CUSTOM_DIR}/Breakout Boards/DCDCModule/Mini Dc-Dc.kicad_sym")(options "")(descr ""))
 )
